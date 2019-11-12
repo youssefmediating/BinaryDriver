@@ -16,9 +16,8 @@ use Alchemy\BinaryDriver\Exception\ExecutionFailureException;
 use Alchemy\BinaryDriver\Listeners\Listeners;
 use Alchemy\BinaryDriver\Listeners\ListenerInterface;
 use Evenement\EventEmitter;
-use Monolog\Logger;
-use Monolog\Handler\NullHandler;
 use Psr\Log\LoggerInterface;
+use Psr\Log\NullLogger;
 use Symfony\Component\Process\ExecutableFinder;
 use Symfony\Component\Process\Process;
 
