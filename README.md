@@ -1,4 +1,4 @@
-# Binary Driver
+# Binary Driver (Edited to work with laravel 6+)
 
 Binary-Driver is a set of PHP tools to build binary drivers.
 
