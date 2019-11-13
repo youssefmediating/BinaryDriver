@@ -162,8 +162,7 @@ abstract class AbstractBinary extends EventEmitter implements BinaryInterface
         }
 
         if (null === $logger) {
-            $logger = new Logger(__NAMESPACE__ . ' logger');
-            $logger->pushHandler(new NullHandler());
+            $logger = new Logger();
         }
 
         $configuration = $configuration instanceof ConfigurationInterface ? $configuration : new Configuration($configuration);
